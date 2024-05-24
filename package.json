@@ -4,10 +4,14 @@
     "apps/*",
     "packages/*"
   ],
+  "scripts": {
+    "dev:api": "bun --filter api dev"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   }
+   
 }
