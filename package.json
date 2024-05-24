@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:api": "bun --filter api dev"
+    "dev:api": "bun --filter api dev",
+    "dev:web": "bun --filter web dev"
   },
   "devDependencies": {
     "bun-types": "latest"
@@ -13,5 +14,4 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   }
-   
 }
