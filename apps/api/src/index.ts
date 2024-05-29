@@ -20,5 +20,5 @@ const app = new Elysia()
   );
 
 console.log(
-  `🍊Pomelo is running at ${app.server?.hostname}:${app.server?.port}`,
+  `🍊Pomelo is running at http://${app.server?.hostname}:${app.server?.port}`,
 );
